@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Name Tag</title>
 </head>
+
 <body class="flex-center">
-    <main>
-        <p class="big">Hello</p>
-        <p class="my-name-is">my name is</p>
-        <section class="flex-center">PonyBoy Curtis</section>
+
+    <main id="colorWheel">
+
+        <div>
+            <p class="big">Hello</p>
+            <p class="my-name-is">my name is</p>
+        </div>
+
+        <section class="flex-center">
+            <div id="name">PonyBoy Curtis</div>    
+        </section>
     </main>
+
+    <div class="changeName">
+        <input id="userInput" />
+        <button id="callButton">That's not my name.</button>
+    </div>
+    <div class="changeColor">
+        <button id="original">0</button>
+        <button id="pink">1</button>
+        <button id="lightblue">2</button>
+        <button id="lightgreen">3</button>
+    </div>
+    <div class="movement">
+        <button id="touch">Don't touch this.</button>
+    </div>
+
+    <script type="module" src="app.js"></script>
 </body>
 </html>

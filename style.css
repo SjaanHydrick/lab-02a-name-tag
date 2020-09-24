@@ -10,10 +10,15 @@ font-family: Helvetica, sans-serif;
 text-align: center;
 color: white;
 border-radius: 15px;
+box-shadow: 2px 2px 10px black;
 }
 
 body {
-    background-color: navy;
+background-image: url("https://i.pinimg.com/originals/8e/de/b4/8edeb404f5385e47c018f7bf4c4b0089.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: saddlebrown;
 }
 
 p {
@@ -45,4 +50,95 @@ font-weight: 800;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.changeName {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.changeColor {
+    margin-top: 20px;
+}
+
+.movement {
+    margin-top: 40px;
+}
+    
+
+#callButton {
+    background-color: azure;
+}
+
+#original {
+    background-color: red;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#lightblue {
+    background-color: lightblue;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+}
+
+#touch {
+    background-color: aquamarine;
+}
+
+.howDare {
+    animation: howDare .5s infinite linear;
+}
+
+@keyframes howDare {
+0% {
+    transform: skewX(44deg);
+}
+
+10% {
+    transform: skewY(-58deg);
+}
+
+20% {
+    transform: skewX(67deg);
+}
+
+30% {
+    transform: skewY(-22deg);
+}
+
+40% {
+    transform: skewX(90deg);
+}
+
+50% {
+    transform: skewY(-70deg);
+}
+
+60% {
+    transform: skewX(30deg)
+}
+
+70% {
+    transform: skewY(-45deg);
+}
+
+80% {
+    transform: skewX(24deg)
+}
+
+90% {
+    transform: skewY(-54deg);
+}
+
+100% {
+    transform: skewX(-37deg);
+}
 }
